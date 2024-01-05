@@ -1,0 +1,8 @@
+
+    <form (ngSubmit)="sendMessage()" [formGroup]="formMessage" class="users-type">
+        <input formControlName="message" type="text">
+        <input formControlName="attachment" type="file" #fileInput style="display: none;" (change)="handleFileChange($event)">
+        <button class="submit">Enviar</button>
+        <button class="attach" (click)="openFileInput()">Adjuntar</button>
+
+    </form>

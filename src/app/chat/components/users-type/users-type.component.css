@@ -1,0 +1,33 @@
+:host {
+    display: block;
+    position: relative;
+}
+
+.users-type .submit  {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    margin: 15px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+
+.users-type .attach  {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.users-type input {
+    width: 100%;
+    padding: .5rem;
+    border: 0;
+    height: 25px;
+}
